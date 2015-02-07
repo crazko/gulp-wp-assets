@@ -1,0 +1,33 @@
+{
+  "name": "gulp-wc-assets",
+  "version": "1.0.0",
+  "description": "Simple Wordpress assets alternative",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/crazko/gulp-wp-assets.git"
+  },
+  "homepage": "git://github.com/crazko/gulp-wp-assets.git",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "gulpplugin",
+    "wordpress",
+    "assets",
+    "roots"
+  ],
+  "author": {
+    "name": "Roman Vesely",
+    "email": "crazko@gmail.com",
+    "url": "http://hilar.eu"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "gulp-util": "^3.0.3",
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  }
+}
